@@ -2,18 +2,12 @@
   "name": "fp-components",
   "author": "FirstPromoter",
   "private": true,
-  "version": "0.1.2",
+  "version": "0.1.3",
   "files": [
     "dist"
   ],
   "main": "./dist/fp-components.umd.js",
   "module": "./dist/fp-components.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/fp-components.es.js",
-      "require": "./dist/fp-components.umd.js"
-    }
-  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build -c vite-build.config.js",
